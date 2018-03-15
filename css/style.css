@@ -1,0 +1,25 @@
+/****************************************
+*
+*   GLOBAL
+*
+****************************************/
+html, body {
+  background-color: #181a1f;
+  color: #ddd;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 300;
+  overflow: hidden;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/****************************************
+*
+*   CUSTOM
+*
+****************************************/

@@ -19,7 +19,9 @@
     <!-- FULLPAGE INITIALIZATION SCRIPT -->
     <script type="text/javascript">
       $(document).ready(function() {
-        $('#fullpage').fullpage();
+        $('#fullpage').fullpage({
+        // TODO
+        });
       });
     </script>
 
@@ -32,7 +34,7 @@
     <div id="fullpage">
 
       <!-- LANDING PAGE -->
-      <main class="section" id="landing-page">
+      <main class="section active" id="landing-page">
         <!-- Slideshow -->
         <ul class="slideshow">
           <li><span><!-- Image 01 --></span></li>
@@ -74,6 +76,15 @@
         <section class="slide">
           Slide 5
         </section>
+      </section>
+
+      <!-- CLIENTS PAGE -->
+      <section class="section" id="clients">
+        <h1>Our Clients</h1>
+        <div id="clients">
+          <a href="#"><img src="images/clients/circle.png" alt="Circle"></a>
+          <a href="#"><img src="images/clients/acme.png" alt="Acme Corporation"></a>
+        </div>
       </section>
 
       <!-- CREDITS PAGE -->

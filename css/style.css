@@ -12,6 +12,26 @@ html, body {
   overflow: hidden;
 }
 
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+p {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.5em;
+  width: 65%;
+}
+
 strong {
   font-weight: 400;
 }
@@ -56,26 +76,6 @@ strong {
 
 
 /* ABOUT US PAGE STYLING */
-#about-us-content h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-#about-us-content p {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: 1.8em;
-  text-align: center;
-  line-height: 1.5em;
-  width: 65%;
-}
-
 #about-us-button {
   text-decoration: none;
   color: #fff;
@@ -97,6 +97,45 @@ strong {
   transition: 0.4s;
 }
 
+
+/* FEATURES PAGE STYLING */
+#features {
+  /* TODO:  */
+}
+
+
+/* CLIENTS PAGE STYLING */
+#clients-logo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 45%;
+}
+
+#clients-logo img {
+  display: inline-block;
+  width: 40vh;
+}
+
+#clients-logo #left {
+  float: left;
+}
+
+#clients-logo #right {
+  float: right;
+}
+
+#clients-logo::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* CREDITS PAGE STYLING */
+#credits {
+  /* TODO:  */
+}
 
 /* CONTACTS PAGE STYLING */
 #contacts-content h1 {

@@ -12,6 +12,12 @@ html, body {
   overflow: hidden;
 }
 
+a {
+  display: inline-block;
+  color: #rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
 h1 {
   position: absolute;
   top: 20%;
@@ -114,8 +120,8 @@ strong {
 }
 
 #clients-logo img {
-  display: inline-block;
   width: 40vh;
+  height: 100%;
 }
 
 #clients-logo #left {
@@ -133,9 +139,45 @@ strong {
 }
 
 /* CREDITS PAGE STYLING */
-#credits {
-  /* TODO:  */
+#credits-logo-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 60%;
 }
+
+#credits-logo-wrapper img {
+  width: 40vh;
+  height: 100%;
+}
+
+#row-01, #row-02 {
+  margin: 40px auto 40px;
+}
+
+#clients-logo #row-01 #left {
+  float: left;
+}
+
+#clients-logo #row-01 #right {
+  float: right;
+}
+
+#clients-logo #row-02 #left {
+  float: left;
+}
+
+#clients-logo #row-02 #right {
+  float: right;
+}
+
+#credits-logo-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 /* CONTACTS PAGE STYLING */
 #contacts-content h1 {

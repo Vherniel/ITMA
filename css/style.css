@@ -12,6 +12,10 @@ html, body {
   overflow: hidden;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .container {
   width: 65%;
   margin: auto;
@@ -23,10 +27,8 @@ html, body {
 *   CUSTOM
 *
 ****************************************/
-#landing-page {
-  position: relative;
-}
 
+/* LANDING PAGE STYLING */
 #landing-page #ITMA-logo {
   position: absolute;
   z-index: 10;
@@ -40,17 +42,58 @@ html, body {
   top: 80%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
-  font-family: "Lato";
   font-size: 1.3em;
 }
 
-#landing-page strong {
+#landing-page h2 strong {
   color: #f00;
   font-weight: 900;
-  font-family: "Lato"
+}
+
+
+/* ABOUT US PAGE STYLING */
+
+#about-us-content h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#about-us-content p {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.5em;
+  width: 65%;
+}
+
+#about-us-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 45px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#about-us-button:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.4s;
 }

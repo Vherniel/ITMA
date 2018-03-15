@@ -4,6 +4,7 @@
     height: 100vh;
     top: 0px;
     left: 0px;
+    filter: sepia(100%) brightness(40%);
 }
 
 .slideshow:after {

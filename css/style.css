@@ -23,3 +23,34 @@ html, body {
 *   CUSTOM
 *
 ****************************************/
+#landing-page {
+  position: relative;
+}
+
+#landing-page #ITMA-logo {
+  position: absolute;
+  z-index: 10;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#landing-page h2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 1.3em;
+}
+
+#landing-page strong {
+  color: #f00;
+  font-weight: 900;
+  font-family: "Lato"
+}

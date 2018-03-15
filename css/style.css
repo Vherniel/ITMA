@@ -56,7 +56,6 @@ strong {
 
 
 /* ABOUT US PAGE STYLING */
-
 #about-us-content h1 {
   position: absolute;
   top: 20%;
@@ -96,4 +95,63 @@ strong {
   color: #000;
   background-color: #fff;
   transition: 0.4s;
+}
+
+
+/* CONTACTS PAGE STYLING */
+#contacts-content h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  letter-spacing: 2px;
+}
+
+#contacts-content-mail {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 4em;
+  letter-spacing: 3px;
+}
+
+#contacts-content-tel {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#contacts-content-tel h2 {
+  color: #ff6347;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#contacts-content-tel a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+#contacts-social-links {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#contacts-social-links a {
+  font-size: 28px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
 }

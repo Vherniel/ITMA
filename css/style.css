@@ -116,7 +116,7 @@ strong {
   top: 35%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 45%;
+  width: 50%;
 }
 
 #clients-logo img {
@@ -125,57 +125,53 @@ strong {
 }
 
 #clients-logo #left {
-  float: left;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 #clients-logo #right {
-  float: right;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-#clients-logo::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 /* CREDITS PAGE STYLING */
-#credits-logo-wrapper {
+#credits-logo {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 60%;
+  width: 45%;
 }
 
-#credits-logo-wrapper img {
+#credits img {
   width: 40vh;
   height: 100%;
 }
 
-#row-01, #row-02 {
-  margin: 40px auto 40px;
+.position {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-#clients-logo #row-01 #left {
-  float: left;
+#credits .top {
+  top: 30%;
 }
 
-#clients-logo #row-01 #right {
-  float: right;
+#credits .bottom {
+  top: 45%;
 }
 
-#clients-logo #row-02 #left {
-  float: left;
+#credits #left {
+  left: 38%;
 }
 
-#clients-logo #row-02 #right {
-  float: right;
-}
-
-#credits-logo-wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
+#credits #right {
+  left: 62%;
 }
 
 

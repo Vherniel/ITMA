@@ -7,7 +7,7 @@ html, body {
   background-color: #181a1f;
   color: #ddd;
   text-align: center;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   overflow: hidden;
 }
@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+#about-us h1, #clients h1, #credits h1, #contacts h1{
   position: absolute;
   top: 20%;
   left: 50%;
@@ -27,7 +27,7 @@ h1 {
   letter-spacing: 5px;
 }
 
-p {
+#about-us p, #clients p, #credits p, #contacts p {
   position: absolute;
   top: 48%;
   left: 50%;
@@ -48,6 +48,10 @@ strong {
   overflow: hidden;
 }
 
+.slide h1, .slide p {
+  text-align: left;
+}
+
 /****************************************
 *
 *   CUSTOM
@@ -56,6 +60,7 @@ strong {
 
 /* NAVIGATION LIST MENU STYLING */
 nav {
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 0.95em;
   text-align: left;
@@ -74,7 +79,6 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1em;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -126,10 +130,6 @@ nav a {
   color: #000;
   background-color: #fff;
   transition: 0.4s;
-}
-
-#vision-mission {
-  /* TODO:  */
 }
 
 
@@ -205,6 +205,13 @@ nav a {
 
 
 /* CONTACTS PAGE STYLING */
+#contacts {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #contacts-content h1 {
   position: absolute;
   top: 30%;

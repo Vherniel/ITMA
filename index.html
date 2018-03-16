@@ -22,21 +22,13 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage', 'lastPage'],
-          menu: '#menu'
+          anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', 'lastPage'],
+          menu: '#menu',
         });
       });
     </script>
   </head>
 
-  <!-- AOS INITIALIZATION SCRIPT -->
-  <script type="text/javascript">
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-sine',
-      delay: 100
-    });
-  </script>
   <!-- BODY -->
   <body>
 
@@ -44,7 +36,6 @@
       <ul id="menu">
         <li data-menuanchor="1stPage" class="active"><a href="#1stPage"><span>1 Home</span></a></li>
         <li data-menuanchor="2ndPage"><a href="#2ndPage"><span>2 About</span></a></li>
-        <li data-menuanchor="3rdPage"><a href="#3rdPage"><span>3 Vision &amp; Mission</span></a></li>
         <li data-menuanchor="3rdPage"><a href="#3rdPage"><span>3 Features</span></a></li>
         <li data-menuanchor="4thPage"><a href="#4thPage"><span>4 Clients</span></a></li>
         <li data-menuanchor="5thPage"><a href="#5thPage"><span>5 Credits</span></a></li>
@@ -81,26 +72,48 @@
         <a id="about-us-button" href="#landing-page">Learn More</a>
       </section>
 
-      <section class="section" id="vision-mission">
-
-      </section>
-
       <!-- FEATURES PAGE -->
       <section class="section" id="features">
         <section class="slide">
-          Slide 1
+          <div class="container">
+            <h1>Software Development</h1>
+            <p>We provide the best professional software development teams around the world to create a high quality software and programs that fits to your company needs.</p>
+          </div>
         </section>
+
         <section class="slide">
-          Slide 2
+          <div class="container">
+            <h1>Frontend Development</h1>
+            <p>Frontend developers of our company develops the very best web designs and web trends around the world. We can also create your layout from simple to complex or live website and from imagination to reality.</p>
+          </div>
         </section>
+
         <section class="slide">
-          Slide 3
+          <div class="container">
+            <h1>Backend Development</h1>
+            <p>We professionally develop systems that suites for your website administration and database.</p>
+          </div>
         </section>
+
         <section class="slide">
-          Slide 4
+          <div class="container">
+            <h1>DevOps Development</h1>
+            <p>We provide the best DevOps developer that can run, monitor, test, troubleshoot, configure and release your projects orderly and organized.</p>
+          </div>
         </section>
+
         <section class="slide">
-          Slide 5
+          <div class="container">
+            <h1>Graphic Design</h1>
+            <p>Our Company can make a high quality yet productive Graphic Designs for your needs. We can create every images that you can imagine and take it into reality.</p>
+          </div>
+        </section>
+
+        <section class="slide">
+          <div class="container">
+            <h1>Television Advertisement</h1>
+            <p>We can make any kind of television advertisement that you want that suites to your Company needs in such a creative or complex ideas of advertisement.</p>
+          </div>
         </section>
       </section>
 
@@ -138,7 +151,7 @@
         </div>
 
       <!-- Social Links -->
-      <div id="contacts-social-links">
+      <section id="contacts-social-links">
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>

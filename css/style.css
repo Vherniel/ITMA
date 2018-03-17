@@ -38,6 +38,15 @@ a {
   width: 65%;
 }
 
+.slide h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.slide h1 {
+  font-size: 4em;
+}
+
 strong {
   font-weight: 400;
 }
@@ -46,6 +55,11 @@ strong {
   width: 65%;
   margin: auto;
   overflow: hidden;
+}
+
+.position {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .slide h1, .slide p {
@@ -167,32 +181,29 @@ nav a {
   transform: translateX(-50%) translateY(-50%);
 }
 
-
-/* CREDITS PAGE STYLING */
-#credits-logo {
+#clients p {
   position: absolute;
-  top: 30%;
+  top: 55%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 45%;
+
 }
 
+
+/* CREDITS PAGE STYLING */
 #credits img {
   width: 40vh;
   height: 100%;
 }
 
-.position {
-  position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-}
+
 
 #credits .top {
-  top: 30%;
+  top: 35%;
 }
 
 #credits .bottom {
-  top: 45%;
+  top: 50%;
 }
 
 #credits #left {

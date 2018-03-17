@@ -24,7 +24,6 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  padding: 0;
   margin: 0 auto 50px auto;
 }
 
@@ -60,6 +59,24 @@ strong {
 
 .slide h1, .slide p {
   text-align: left;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 45px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 50px auto 0 auto;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.4s;
 }
 
 /****************************************
@@ -127,25 +144,6 @@ nav a {
   transform: translateX(-50%) translateY(-50%);
 }
 
-#about-us-button {
-  text-decoration: none;
-  color: #fff;
-  padding: 25px 45px;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  transition: 0.4s;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin: 50px auto 0 auto;
-}
-
-#about-us-button:hover {
-  color: #000;
-  background-color: #fff;
-  transition: 0.4s;
-}
-
-
 /* FEATURES PAGE STYLING */
 #features {
   /* TODO:  */
@@ -197,46 +195,29 @@ nav a {
   background-position: center;
 }
 
-#contacts-content h1 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  letter-spacing: 2px;
-}
-
 #contacts-content-mail {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
-  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 4em;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
 }
 
-#contacts-content-tel {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#contacts-content-tel h2 {
-  font-size: 1.2em;
-  font-weight: 300;
-  letter-spacing: 3px;
+#contacts-content h3 {
+  color: #ff6347;
+  font-size: 1em;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  letter-spacing: 5px;
+  margin: 0 auto 15px auto;
 }
 
-#contacts-content-tel a {
+#contacts-content-hotline {
   text-decoration: none;
-  font-size: 1.3em;
   color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2em;
 }
+
 
 #contacts-social-links {
   position: absolute;

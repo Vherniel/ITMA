@@ -52,11 +52,6 @@ strong {
   overflow: hidden;
 }
 
-.position {
-  position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .slide h1, .slide p {
   text-align: left;
 }
@@ -159,31 +154,6 @@ nav a {
   width: 40vh;
   height: 100%;
   margin: auto 25px 20px 25px;
-}
-
-
-/* CREDITS PAGE STYLING */
-#credits img {
-  width: 40vh;
-  height: 100%;
-}
-
-
-
-#credits .top {
-  top: 35%;
-}
-
-#credits .bottom {
-  top: 50%;
-}
-
-#credits #left {
-  left: 38%;
-}
-
-#credits #right {
-  left: 62%;
 }
 
 

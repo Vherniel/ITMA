@@ -18,24 +18,24 @@ a {
   text-decoration: none;
 }
 
-#about-us h1, #clients h1, #credits h1, #contacts h1{
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+h2 {
+  color: #ff6347;
+  font-size: 1em;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
+  padding: 0;
+  margin: 0 auto 50px auto;
 }
 
-#about-us p, #clients p, #credits p, #contacts p {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+p {
   font-size: 1.8em;
   text-align: center;
   line-height: 1.5em;
-  width: 65%;
+}
+
+strong {
+  font-weight: 400;
 }
 
 .slide h2 {
@@ -45,10 +45,6 @@ a {
 
 .slide h1 {
   font-size: 4em;
-}
-
-strong {
-  font-weight: 400;
 }
 
 .container {
@@ -74,15 +70,14 @@ strong {
 
 /* NAVIGATION LIST MENU STYLING */
 nav {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.95em;
-  text-align: left;
-  z-index: 20;
   position: fixed;
   top: 50%;
   left: 100px;
   transform: translateX(-50%) translateY(-50%);
+  z-index: 20;
+  font-weight: 300;
+  font-size: 0.95em;
+  text-align: left;
 }
 
 nav li {
@@ -125,6 +120,13 @@ nav a {
 
 
 /* ABOUT US PAGE STYLING */
+#about-us {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 #about-us-button {
   text-decoration: none;
   color: #fff;
@@ -134,10 +136,7 @@ nav a {
   transition: 0.4s;
   text-transform: uppercase;
   letter-spacing: 3px;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  margin: 50px auto 0 auto;
 }
 
 #about-us-button:hover {
@@ -155,38 +154,13 @@ nav a {
 
 /* CLIENTS PAGE STYLING */
 #clients-logo {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 50%;
+  margin-bottom: 20px;
 }
 
 #clients-logo img {
   width: 40vh;
   height: 100%;
-}
-
-#clients-logo #left {
-  position: absolute;
-  top: 35%;
-  left: 25%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#clients-logo #right {
-  position: absolute;
-  top: 35%;
-  left: 75%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#clients p {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-
+  margin: auto 25px 20px 25px;
 }
 
 
@@ -251,7 +225,6 @@ nav a {
 }
 
 #contacts-content-tel h2 {
-  color: #ff6347;
   font-size: 1.2em;
   font-weight: 300;
   letter-spacing: 3px;
@@ -277,4 +250,10 @@ nav a {
   padding: 0 10px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
 }

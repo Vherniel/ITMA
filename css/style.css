@@ -135,22 +135,6 @@ nav a {
   letter-spacing: 3px;
 }
 */
-
-#menu {
-	position:fixed;
-	top: 50%;
-	left: 100px;
-  transform: translateX(-50%) translateY(-50%);
-	z-index: 9999;
-  text-align: left;
-  opacity: 20;
-  transition: 0.4s;
-}
-
-#menu li {
-  position: relative;
-}
-
 .circle-indicator {
   position: absolute;
   top: 50%;
@@ -164,32 +148,61 @@ nav a {
   background-color: #fff;
 }
 
-#menu li:hover {
-  opacity: 80;
-  z-index: 9999;
+#menu {
+	position:fixed;
+	top: 50%;
+	left: 120px;
+  transform: translateX(-50%) translateY(-50%);
+	z-index: 9999;
+  text-align: left;
+  opacity: 20;
+  transition: 0.4s;
 }
+
+#menu li a {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  color: rgba(255, 255, 255, 0);
+  transition: 0.4s;
+}
+
+#menu li a:hover {
+  color: rgba(255, 255, 255, 1);
+  transition: 0.4s;
+
+}
+
 #menu li.active {
 	color: #fff;
   transition: 1s;
   opacity: 100;
   z-index: 9999;
 }
-#menu li a {
-	text-decoration:none;
-	color: #000;
-  z-index: 9999;
-}
+
 #menu li.active a:hover {
-	color: #fff;
+	color: #00f;
   z-index: 9999;
 }
 #menu li a, #menu li.active a {
-	padding: 9px 18px;
+	padding: 9px 40px;
   z-index: 9999;
 }
 #menu li.active a {
 	color: #fff;
   z-index: 9999;
+}
+
+#menu-number {
+  position: fixed;
+  z-index: 500;
+  top: 50%;
+  left: 50px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#menu-number li {
+  padding: 9px;
 }
 
 /* LANDING PAGE STYLING */

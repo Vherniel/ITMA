@@ -143,12 +143,12 @@ strong {
 }
 
 #menu li a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.8);
   transition: 0.4s;
 }
 
 #menu li.active .circle-indicator {
-	color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   transition: 1s;
   opacity: 100;
   z-index: 9999;
@@ -164,7 +164,7 @@ strong {
   z-index: 9999;
 }
 #menu li.active a {
-	color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   z-index: 9999;
 }
 
@@ -178,6 +178,10 @@ strong {
 
 #menu-number li {
   padding: 9px;
+}
+
+#menu-number li a {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* LANDING PAGE STYLING */

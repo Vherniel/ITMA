@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  color: #ff6347;
+  color: #e41241;
   font-size: 1em;
   font-weight: 400;
   text-transform: uppercase;
@@ -72,8 +72,8 @@ strong {
 }
 
 .arrow {
-  box-sizing: margin-box;
-  margin: 5px;
+  box-sizing: content-box;
+  padding: 3px;
   position: absolute;
   bottom: 50px;
   right: 60px;
@@ -86,8 +86,8 @@ strong {
 }
 
 .arrow:hover {
-  border-left: solid 2px #ff6347;
-  border-bottom: solid 2px #ff6347;
+  border-left: solid 2px #e41241;
+  border-bottom: solid 2px #e41241;
   transform: rotate(45deg) rotateY(180deg);
   transition: 0.5s;
 }
@@ -111,6 +111,7 @@ strong {
 ****************************************/
 
 /* NAVIGATION LIST MENU STYLING */
+/*
 nav {
   position: fixed;
   top: 50%;
@@ -133,6 +134,60 @@ nav a {
   font-weight: 300;
   letter-spacing: 3px;
 }
+*/
+
+#menu {
+	position:fixed;
+	top: 50%;
+	left: 100px;
+  transform: translateX(-50%) translateY(-50%);
+	z-index: 20;
+  text-align: left;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+#menu:hover {
+  opacity: 80;
+  transition: 0.4s;
+}
+
+#menu li {
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+}
+
+#menu li:hover {
+	background: rgba(255,255,255, 0.8);
+  opacity: 80;
+}
+
+#menu li.active {
+	color: #fff;
+  transition: 1s;
+  opacity: 100;
+}
+
+#menu li a {
+	text-decoration:none;
+	color: #000;
+}
+
+#menu li.active a:hover {
+	color: #e41241;
+}
+
+#menu li a, #menu li.active a {
+	padding: 9px 18px;
+}
+
+#menu li.active a {
+	color: #fff;
+}
+
+
 
 /* LANDING PAGE STYLING */
 #landing-page #ITMA-logo {
@@ -233,7 +288,7 @@ nav a {
   color: rgba(255, 255, 255, 0.9);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1103px) {
     body {
         background-color: lightblue;
     }

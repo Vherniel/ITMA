@@ -23,6 +23,8 @@
         $('#fullpage').fullpage({
           anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', 'lastPage'],
           menu: '#menu',
+          controlArrows: false, // Disables left and right arrow navigation button in horizontal slides.
+          slidesNavigation: true, // To enable the slide navigation bar.
           css3:false  // To make the parallax scroll effect supported by the browser.
         });
       });
@@ -76,7 +78,7 @@
       </section>
       <!-- FEATURES PAGE -->
       <section class="section" id="features">
-        <section class="slide" id="software-development">
+        <section class="slide" data-anchor="slide1" id="software-development">
           <div class="container">
             <h2>Things We Do Well</h2>
             <h1>Software<br>Development</h1>
@@ -85,7 +87,7 @@
           </div>
         </section>
 
-        <section class="slide">
+        <section class="slide" data-anchor="slide2">
           <div class="container">
             <h2>Things We Do Well</h2>
             <h1>Frontend<br>Development</h1>
@@ -93,7 +95,7 @@
           </div>
         </section>
 
-        <section class="slide">
+        <section class="slide" data-anchor="slide3">
           <div class="container">
             <h2>Things We Do Well</h2>
             <h1>Backend<br>Development</h1>
@@ -102,14 +104,14 @@
         </section>
 
         <section class="slide">
-          <div class="container">
+          <div class="container" data-anchor="slide4">
             <h2>Things We Do Well</h2>
             <h1>DevOps<br>Development</h1>
             <p>We provide the best DevOps developer that can run, monitor, test, troubleshoot, configure and release your projects orderly and organized.</p>
           </div>
         </section>
 
-        <section class="slide">
+        <section class="slide" data-anchor="slide5">
           <div class="container">
             <h2>Things We Do Well</h2>
             <h1>Graphic Design</h1>
@@ -117,7 +119,7 @@
           </div>
         </section>
 
-        <section class="slide">
+        <section class="slide" data-anchor="6">
           <div class="container">
             <h2>Things We Do Well</h2>
             <h1>Television<br>Advertisement</h1>

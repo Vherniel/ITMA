@@ -126,7 +126,7 @@ strong {
 #menu {
 	position:fixed;
 	top: 50%;
-	left: 120px;
+	left: 135px;
   transform: translateX(-50%) translateY(-50%);
 	z-index: 9999;
   text-align: left;
@@ -172,7 +172,7 @@ strong {
   position: fixed;
   z-index: 500;
   top: 50%;
-  left: 50px;
+  left: 65px;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -218,6 +218,10 @@ strong {
 /* FEATURES PAGE STYLING */
 #features {
   /* TODO:  */
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background-color: #fff;
 }
 
 /* CLIENTS PAGE STYLING */

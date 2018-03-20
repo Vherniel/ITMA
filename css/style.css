@@ -14,7 +14,7 @@ html, body {
 
 a {
   display: inline-block;
-  color: #rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -109,32 +109,6 @@ strong {
 *   CUSTOM
 *
 ****************************************/
-
-/* NAVIGATION LIST MENU STYLING */
-/*
-nav {
-  position: fixed;
-  top: 50%;
-  left: 100px;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 20;
-  font-weight: 300;
-  font-size: 0.95em;
-  text-align: left;
-}
-
-nav li {
-  margin: 18px auto 18px;
-}
-
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-*/
 .circle-indicator {
   position: absolute;
   top: 50%;
@@ -146,6 +120,7 @@ nav a {
   height: 7px;
   border-radius: 50%;
   background-color: #fff;
+  opacity: 0;
 }
 
 #menu {
@@ -170,10 +145,9 @@ nav a {
 #menu li a:hover {
   color: rgba(255, 255, 255, 1);
   transition: 0.4s;
-
 }
 
-#menu li.active {
+#menu li.active .circle-indicator {
 	color: #fff;
   transition: 1s;
   opacity: 100;

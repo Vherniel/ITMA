@@ -109,6 +109,7 @@ strong {
 *   CUSTOM
 *
 ****************************************/
+
 .circle-indicator {
   position: absolute;
   top: 50%;
@@ -163,6 +164,7 @@ strong {
 	padding: 9px 40px;
   z-index: 9999;
 }
+
 #menu li.active a {
   color: rgba(255, 255, 255, 0.8);
   z-index: 9999;
@@ -185,6 +187,7 @@ strong {
 }
 
 /* LANDING PAGE STYLING */
+
 #landing-page #ITMA-logo {
   position: absolute;
   z-index: 10;
@@ -210,8 +213,8 @@ strong {
   font-weight: 900;
 }
 
-
 /* ABOUT US PAGE STYLING */
+
 #about-us {
   position: relative;
   top: 50%;
@@ -220,8 +223,40 @@ strong {
 }
 
 /* FEATURES PAGE STYLING */
-#features {
-  /* TODO:  */
+
+#features p {
+  font-size: 1.3em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#features .content-wrapper {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+#features .item {
+  display: inline-block;
+}
+
+#features .item.left {
+  float: left;
+  width: 50%;
+}
+
+#features .item.right {
+  float: right;
+  width: 45%;
+  height: 100%;
+  right: 0;
+  display: table-cell;
+  position: absolute;
+}
+
+#features .item.right img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -229,6 +264,7 @@ strong {
 }
 
 /* CLIENTS PAGE STYLING */
+
 #clients-logo {
   margin-bottom: 20px;
 }
@@ -241,6 +277,7 @@ strong {
 
 
 /* CONTACTS PAGE STYLING */
+
 #contacts {
   background-image: url('../images/background.png');
   background-size: cover;
@@ -273,6 +310,7 @@ strong {
 }
 
 /* CONTACTS SOCIAL LINKS */
+
 #contacts-social-links {
   position: absolute;
   top: 90%;
@@ -285,10 +323,4 @@ strong {
   padding: 0 10px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
-}
-
-@media only screen and (max-width: 1103px) {
-    body {
-        background-color: lightblue;
-    }
 }

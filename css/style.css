@@ -155,9 +155,10 @@ strong {
 }
 
 #menu li.active a:hover {
-	color: #00f;
+	color: #e41241;
   z-index: 9999;
 }
+
 #menu li a, #menu li.active a {
 	padding: 9px 40px;
   z-index: 9999;
